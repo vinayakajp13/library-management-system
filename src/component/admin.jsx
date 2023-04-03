@@ -1,10 +1,26 @@
 import '../style/admin.css'
 const Admin = () => {
-    return ( <div>
+    return (<div className='admin'>
 
-        <h1>Admin</h1>
+        <div className="login">
+            <img src="/image/Profile.png" alt="" />
+            <h1>Admin Login</h1>
 
-    </div> );
+            <br />
+
+            <label > Email: </label>
+            <input type="text" name="" id="a" placeholder='Enter Your Email' />
+            <br />
+            <br />
+            <label > Password: </label>
+            <input type="password" name="" id="" placeholder='Enter Your Password' />
+            <br />
+            <button>Login</button>
+
+
+
+        </div>
+    </div>);
 }
- 
+
 export default Admin;
